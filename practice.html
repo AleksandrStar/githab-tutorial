@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="I practice
+work in HTML"
+    />
+    <title>Практика 2</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <!-- Практикую работу в HTML -->
+  <body>
+    <!-- Практика создания шапки страници -->
+    <header>
+      <nav>
+        <a href="index.html">Практика<span lang="en">HTML</span></a>
+        <ul>
+          <li><a href="index.html">Практика 1</a></li>
+          <li><a href="practice.html">Практика 2</a></li>
+        </ul>
+      </nav>
+      <ul>
+        <li><a href="tel:11111111111">+1 (111) 111-11-11</a></li>
+        <li>
+          <a href="mailto:info@train-practice.com">info@train-practice.com</a>
+        </li>
+      </ul>
+    </header>
+    <!-- Практика создания основного/уникаального раздела страници -->
+    <main>
+      <!-- Практика применения якорей -->
+        <ul>
+            <li><a href="#картинки">картинки</a></li>
+            <li><a href="#таблица">таблица</a></li>
+        </ul>
+        <!-- Практика создания картинок -->
+        <section>
+        <h2 id="картинки">картинки</h2>
+        <ul>
+          <li>абсолютний путь до картинки</li>
+          <li>
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg"
+                alt="Включенный ноутбук на сером деревянном столе"
+                width="400"
+                height="300"
+              />
+              <figcaption>Инструмент для практики в <span lang="en">HTML</figcaption>
+            </figure>
+          </li>
+          <li>относительний путь до картинки</li>
+          <li><img src="./images/img.jpg" alt="Наушники" width="400"
+                height="300"/></li>
+                <p>Картинка с примером относительного пути</p>
+        </ul>
+      </section>
+      <section>
+        <!-- Практика создания таблици -->
+        <h2 id="таблица">таблица</h2>
+        <table>
+            <caption>
+    <strong>для успеха</strong> необходимо практиковать
+  </caption>
+  <thead>
+    <tr>
+      <th>практика</th>
+      <th>дни недели</th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>пн</th>
+      <th>вт</th>
+      <th>ср</th>
+      <th>чт</th>
+      <th>пт</th>
+      <th>сб</th>
+      <th>вс</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>количество чясов</td>
+      <td></td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    
+  </tbody>
+</table>
+    </section>
+    </main>
+    <!-- Практика создания подвала страници -->
+    <footer>
+      <address>
+        <a
+          href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+8,+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0,+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+36000/@49.5688331,34.5389823,17z/data=!3m1!4b1!4m5!3m4!1s0x40d82f151832b93d:0x95675e03710b0e87!8m2!3d49.5688331!4d34.5389823"
+          target="_blank"
+          rel="Google"
+          >г. Полтава,<br />
+          ул. Леси Украинки, 8,<br />
+          5-й этаж офис 538</a
+        >
+      </address>
+      <button type="button">регистрация</button>
+    </footer>
+  </body>
+</html>
