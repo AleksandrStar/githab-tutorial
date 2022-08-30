@@ -1,4 +1,17 @@
+:root {
+  --main-font: "Raleway", sans-serif;
+  --basik-color: #212121;
+}
 body {
-  background-color: #fff;
-  color: #2a2a2a;
+  font-family: var(--main-font);
+  font-size: 14px;
+  letter-spacing: 0.03;
+  color: var(--basik-color);
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: rgb(176, 224, 225);
 }

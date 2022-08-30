@@ -8,23 +8,34 @@
 work in HTML"
     />
     <title>Практика 1</title>
-
+    <!--   Шрифты проекту   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--   Стили   -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!-- Практикую работу в HTML -->
   <body>
     <!-- Практика создания шапки страници-->
-    <header>
-      <nav>
-        <a href="index.html">Практика<span lang="en">HTML</span></a>
-        <ul>
-          <li><a href="index.html">Практика 1</a></li>
-          <li><a href="practice.html">Практика 2</a></li>
+    <header class="header">
+      <nav class="navigtion">
+        <a class="logo" href="index.html"
+          >Практика<span class="logo-accent" lang="en">HTML</span></a
+        >
+        <ul class="list-navigtion">
+          <li class="item-index"><a href="index.html">Практика 1</a></li>
+          <li class="item-practice"><a href="practice.html">Практика 2</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="tel:11111111111">+1 (111) 111-11-11</a></li>
-        <li>
+      <ul class="list-contact">
+        <li class="telephone">
+          <a href="tel:11111111111">+1 (111) 111-11-11</a>
+        </li>
+        <li class="mailto">
           <a href="mailto:info@train-practice.com">info@train-practice.com</a>
         </li>
       </ul>
